@@ -1,8 +1,45 @@
-# React + Vite
+## React 選擇題小遊戲
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](./public/game-view.png)
 
-Currently, two official plugins are available:
+## 安裝
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Node.js 版本建議為：v20.10.0
+
+### 取得專案
+
+```
+git clone https://github.com/tim8076/JS-question-game.git
+```
+
+### 移動到專案內
+
+```
+cd JS-question-game
+```
+
+### 安裝
+
+```
+npm install
+```
+
+### 運行專案
+
+```
+npm run dev
+```
+
+## 資料夾說明
+
+- assets - 靜態資源放置處
+  scss - scss 檔案放置處
+  images - 圖片放置處
+- components - react 元件放置處
+- data - 遊戲資料放置處
+
+## 專案技術
+
+- Node.js v20.10.0
+- React v18.3.1
+- Bootstrap v5.3.3
