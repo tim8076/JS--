@@ -1,0 +1,12 @@
+.card-answer {
+  height: 100px;
+
+  &:hover,
+  &.active {
+    background-color: $primary-100;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 200px;
+  }
+}
